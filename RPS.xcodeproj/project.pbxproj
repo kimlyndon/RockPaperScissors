@@ -12,6 +12,8 @@
 		9848A8512059E5D700F27E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9848A84F2059E5D700F27E98 /* Main.storyboard */; };
 		9848A8532059E5D700F27E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9848A8522059E5D700F27E98 /* Assets.xcassets */; };
 		9848A8562059E5D700F27E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9848A8542059E5D700F27E98 /* LaunchScreen.storyboard */; };
+		9848A85E2059E65D00F27E98 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848A85D2059E65D00F27E98 /* Sign.swift */; };
+		9848A8602059EDB600F27E98 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848A85F2059EDB600F27E98 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9848A8522059E5D700F27E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9848A8552059E5D700F27E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9848A8572059E5D700F27E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9848A85D2059E65D00F27E98 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		9848A85F2059EDB600F27E98 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		9848A84A2059E5D600F27E98 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				9848A85D2059E65D00F27E98 /* Sign.swift */,
+				9848A85F2059EDB600F27E98 /* GameState.swift */,
 				9848A84B2059E5D700F27E98 /* AppDelegate.swift */,
 				9848A84D2059E5D700F27E98 /* ViewController.swift */,
 				9848A84F2059E5D700F27E98 /* Main.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9848A84E2059E5D700F27E98 /* ViewController.swift in Sources */,
+				9848A8602059EDB600F27E98 /* GameState.swift in Sources */,
 				9848A84C2059E5D700F27E98 /* AppDelegate.swift in Sources */,
+				9848A85E2059E65D00F27E98 /* Sign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +283,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87T6RG3PX5;
 				INFOPLIST_FILE = RPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.RPS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.RPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +298,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87T6RG3PX5;
 				INFOPLIST_FILE = RPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.RPS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.RPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
